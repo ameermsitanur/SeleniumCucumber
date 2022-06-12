@@ -1,0 +1,7 @@
+stepdefinitions\com\Steps.class
+pageobjects\com\Addcustomer.class
+pageobjects\com\Searchcustomer.class
+testrunner\com\TestRun.class
+utilities\com\Waithelper.class
+pageobjects\com\Loginpage.class
+stepdefinitions\com\Baseclass.class

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.com.TestRun
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 118.032 sec <<< FAILURE!
+successful login with valid credentials(login)  Time elapsed: 112.822 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Your store. Login]> but was:<[admin-demo.nopcommerce.com | 522: Connection timed out]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepdefinitions.com.Steps.page_tittle_should_be(Steps.java:79)
+	at ?.page tittle should be "Your store. Login"(file:Features/Login.feature:11)
+
